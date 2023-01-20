@@ -1,0 +1,25 @@
+.dots{
+    position: absolute;
+    padding: 0;
+    bottom: 0%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 5px;
+    opacity: 0.4;
+}
+
+.dot.active{
+    border: 1px solid aqua;
+    background-color: aqua;
+    opacity: 1;
+}

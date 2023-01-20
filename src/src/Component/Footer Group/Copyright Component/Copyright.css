@@ -1,0 +1,99 @@
+.copyright-wrapper {
+    background-color: var(--secondary-black);
+    color: white;
+    width: 100%;
+    height: 15vh;
+}
+
+.copyright-inner-wraps {
+    border-top: 1px solid rgba(0, 255, 255, 0.5);
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-description {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+
+.copyright-wrap .quick-link-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyright-reserved {
+    color: aqua;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.copyright-wrap .quick-link-lists li {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.copyright-wrap .quick-link-lists>li:nth-child(1) {
+    padding-left: 0px;
+}
+
+.copyright-wrap .social-media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.copyright-wrap .social-media-links li {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: min(5%, 25px);
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+}
+
+.copyright-wrap .social-media-links li:hover {
+    background-color: aqua;
+    border: 1px solid aqua;
+}
+
+.copyright-wrap .social-media-links li:nth-child(1) {
+    margin-left: 0px;
+}
+
+.copyright-wrap .social-media-links li:nth-child(1) {
+    background-image: url('instagram.png');
+    background-size: contain;
+}
+
+.copyright-wrap .social-media-links li:nth-child(2) {
+    background-image: url('linkedin.png');
+    background-size: contain;
+}
+
+.copyright-wrap .social-media-links li:nth-child(3) {
+    background-image: url('github.png');
+    background-size: contain;
+}

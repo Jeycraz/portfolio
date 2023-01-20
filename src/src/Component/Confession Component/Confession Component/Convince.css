@@ -1,0 +1,30 @@
+.convince-outer-wrapper {
+    height: 130vh;
+    width: 100vw;
+    background-color: var(--secondary-black);
+}
+
+.convince-inner-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+/* .convince-inner-wrapper > .box{
+    margin-top: 0;
+} */
+
+.box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 75%;
+    height: 5%;
+    color: white;
+    font-size: 35px;
+}

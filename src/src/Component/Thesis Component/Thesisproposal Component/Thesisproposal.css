@@ -1,0 +1,143 @@
+.thesisprop-wrapper {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(30, 30, 31)
+}
+
+.thesisprop-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    height: 35%;
+}
+
+.thesisprop-heading p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.thesisprop-heading h3 {
+    font-size: 25px;
+    margin: 0;
+    width: 90%;
+}
+
+.thesisprop-text-wrapper .thesisprops-text-heading {
+    text-align: left;
+
+    width: 100%;
+    font-size: 20px;
+}
+
+.thesisprop-description-wrapper {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thesisprop-text-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 60%;
+    /* border: 1px solid red; */
+}
+
+.thesisprop-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 1px solid white; */
+    height: 100%;
+}
+
+.thesisprop-description .thesisprop-text {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    font-size: 12px;
+    /* border: 1px solid green; */
+    margin: 0;
+}
+
+.thesisprop-description .thesisprops-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 80%;
+    /* border: 1px solid purple; */
+}
+
+.thesisprops-icon-wrapper .thesisprop-icon-text {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+.thesisprops-icon-wrapper .thesisprop-icon-text p {
+    width: 100%;
+    margin: 0;
+}
+
+.thesisprops-icon-wrapper .thesisprop-people-wrapper {
+    /* border: 1px solid red;  */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.thesisprop-icon-text span {
+    color: aqua;
+    font-size: 35px;
+    display: block;
+
+}
+
+.thesisprops-people-icon {
+    height: 100%;
+    width: 10%;
+}
+
+@media (min-width:1024px) {
+    .thesisprop-description .thesisprop-text {
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .thesisprop-text-wrapper .thesisprops-text-heading {
+        height: 10%;
+        font-size: 25px;
+    }
+
+    .thesisprop-description .thesisprops-icon-wrapper {
+        width: 35%;
+        height: 100%;
+        scale: 1.2;
+    }
+
+    .thesisprops-icon-wrapper .thesisprop-icon-text {
+        justify-content: flex-start;
+    }
+}

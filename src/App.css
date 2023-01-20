@@ -1,0 +1,5 @@
+.App {
+  background-color: var(--background-black);
+  scroll-behavior: smooth;
+  overflow: hidden;
+}

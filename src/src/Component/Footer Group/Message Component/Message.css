@@ -1,0 +1,72 @@
+.message-wrapper {
+    background-color: var(--secondary-black);
+    color: white;
+    width: 100%;
+    height: 50vh;
+}
+
+.message-roles {
+    border-bottom: 1px solid aqua;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.role-container {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.envelope {
+    font-size: 3.5em;
+    color: aqua;
+}
+
+.contact-header {
+    margin-top: 1rem;
+}
+
+.contact-words {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    opacity: 0.6;
+}
+
+a.action-button {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    border-radius: 4px;
+    color: aqua;
+    border: 1px solid aqua;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.action-button:hover,
+a.action-button:active {
+    background-color: aqua;
+    color: black;
+}
+
+@media (max-width:620px) {
+    .message-roles {
+        width: 80%;
+        text-align: center;
+    }
+
+}

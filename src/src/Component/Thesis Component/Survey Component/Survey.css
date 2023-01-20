@@ -1,0 +1,31 @@
+.survey-wrapper {
+    height: 50vh;
+    width: 100vw;
+}
+
+.survey {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: auto;
+}
+
+.survey-button {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid aqua;
+    border-radius: 50px;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.survey h2 {
+    font-size: 35px;
+}
+
+.survey p {
+    margin-top: 2rem;
+}

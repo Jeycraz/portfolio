@@ -1,0 +1,232 @@
+.form-outer-outer-wrapper {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+}
+
+
+.form-outer-wrapper {
+    height: 80%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-outer-wrapper .caption-wrapper {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.caption-heading {
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.mini-caption {
+    color: #dfdfdfee;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+
+.email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.email-icon-wrapper {
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+/* Form Message Caption */
+.form-text {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.email-link {
+    color: aqua;
+    font-weight: 500;
+}
+
+.email-icon {
+    height: 20px;
+}
+
+.email-caption {
+    width: 80%;
+    margin: 0px;
+}
+
+.form-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    background-color: #181818;
+    border-radius: 15px;
+    box-shadow: 3px 0 15px 5px #2c2c2c;
+}
+
+.form-inner {
+    height: 85%;
+    width: 85%;
+    margin: auto;
+}
+
+.input-field {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2.5rem;
+    position: relative;
+    padding: 0px;
+}
+
+
+.input-field label {
+    transition: all 0.35s ease-in-out;
+    position: absolute;
+    color: #838383;
+    top: 10px;
+    left: 10px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.input-field input:focus+label {
+    top: -30px;
+    opacity: 1;
+    z-index: 0;
+}
+
+.form-inner input {
+    border-radius: 5px;
+    background-color: #303030b4;
+    border: none;
+    width: 95%;
+    padding: 1rem;
+}
+
+
+.form-inner input:focus,
+.form-inner textarea:focus {
+    outline: 2px solid aqua;
+}
+
+.form-inner p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+
+.form-inner textarea {
+    border-radius: 5px;
+    background-color: #303030b4;
+    width: 95%;
+    padding: 1rem;
+    height: min(35%, 100px);
+    margin-bottom: 1rem;
+
+}
+
+.form-inner button {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: aqua;
+    border: none;
+    box-shadow: 1px 1px 4px 4px #242424;
+    cursor: pointer;
+    transform-origin: center;
+}
+
+.form-inner button:active {
+    scale: 0.9;
+}
+
+/* Change Inputted Text inside Input element */
+input,
+select,
+textarea {
+    color: #838383;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+@media (max-width:840px) {
+    .form-outer-outer-wrapper {
+        height: 130vh;
+    }
+
+    .form-outer-wrapper {
+        width: 90%;
+        height: 90%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form-outer-wrapper .caption-wrapper {
+        height: 45%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-outer-wrapper .caption-heading {
+        text-align: center;
+        font-size: max(0.5rem, 25px);
+    }
+
+    .caption-wrapper .email {
+        margin: 1rem;
+        scale: 0.9;
+    }
+
+    .caption-wrapper .mini-caption {
+        font-size: 15px;
+    }
+
+    .form-inner-wrapper {
+
+        width: 100%;
+    }
+
+    .form-inner {
+        justify-content: flex-start;
+    }
+
+    .form-inner-wrapper .form-text {
+        font-size: 30px;
+    }
+
+    .input-field {
+        margin-top: 1.8rem;
+    }
+}

@@ -1,0 +1,265 @@
+.portfolio-wrapper {
+    scroll-snap-type: x mandatory;
+    background-color: var(--dark-black);
+    overflow-x: auto;
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+
+.portfolio-title {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.portfolio-title h2 {
+    color: aqua;
+}
+
+.portfolio-title h1 {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio {
+    height: 100vh;
+    width: 100vw;
+    flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.portfolio .portfolio-video {
+    position: relative;
+    aspect-ratio: 9/16;
+    background-color: white;
+    height: 100%;
+    width: 56.25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .portfolio-video .portfolio_inner_pic {
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: auto;
+    width: 90%;
+}
+
+.portfolio.two .portfolio-video .portfolio_inner_pic {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    width: 90%;
+}
+
+.portfolio-description-wrapper {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    padding: 5%;
+}
+
+.portfolio-heading {
+    margin-bottom: 3rem;
+}
+
+.tech-stacks {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.tech-stacks :nth-child(1) {
+    margin: 0px;
+}
+
+.tech-stack {
+    background-color: var(--secondary-black);
+    font-size: 15px;
+    padding: 0.5rem;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tech-stack:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.source-code {
+    margin-top: 50px;
+    padding: 0.5rem;
+    border: 1px solid aqua;
+    background-color: transparent;
+    color: aqua;
+    border-radius: 50px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.source-code:active {
+    background-color: aqua;
+    color: black;
+}
+
+.source-code:focus {
+    outline: none;
+}
+
+.reminder {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    margin-top: 2rem;
+    color: black;
+    opacity: 0;
+    z-index: 1;
+    animation: reminder_motion;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.reminder .arrow-right {
+    margin-left: 10px;
+    animation: arrow-right-move;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes reminder_motion {
+    0% {
+        opacity: 0;
+    }
+
+    35% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes arrow-right-move {
+    from {
+        opacity: 0;
+        z-index: -1;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        z-index: 2;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width:700px) {
+    .portfolio-wrapper {
+        height: 130vh;
+    }
+
+    .portfolio {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-description-wrapper {
+        justify-content: space-between;
+        width: 90%;
+        height: 60%;
+    }
+
+    .portfolio button {
+        width: 100%;
+    }
+
+    .portfolio .portfolio-video {
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+
+    .tech-stacks {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .reminder {
+        color: black;
+        position: absolute;
+        top: 5%;
+        left: 25%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .portfolio-wrapper {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .portfolio {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-description-wrapper {
+        position: relative;
+        justify-content: flex-start;
+        width: 90%;
+        height: 50%;
+    }
+
+    .portfolio button {
+        width: 100%;
+    }
+
+    .portfolio .portfolio-video {
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+
+    .portfolio .portfolio-video .portfolio_inner_pic {
+        width: min(90%, 650px);
+    }
+
+
+    .tech-stacks {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .reminder {
+        color: black;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+}

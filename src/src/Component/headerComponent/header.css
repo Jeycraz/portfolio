@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: none;
+    margin: 0;
+}
+
+
+.header-container {
+    overflow-x: hidden;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--dark-black);
+    color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px 0px 13px 2px rgba(49, 49, 49, 0.692);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    cursor: pointer;
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+
+.header-list {
+    cursor: pointer;
+    width: 70%;
+    margin: 20px 10px 20px 15px;
+    padding: 15px 20px 15px 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: all 0.3s ease-in;
+}
+
+.header-list a {
+    transition: all 0.5s ease;
+}
+
+.list {
+    color: rgb(156, 156, 156);
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.list::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    background-color: aqua;
+    transform-origin: bottom left;
+    opacity: 0;
+    top: 23px;
+    left: 0;
+    transition: transform 0.3s ease, opacity 0.35s ease;
+}
+
+.list:hover::after {
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+.header-list a:hover {
+    color: rgb(255, 255, 255);
+}
+
+a.list.active {
+    color: white;
+}
+
+a.list.active::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    top: 23px;
+    background-color: aqua;
+}

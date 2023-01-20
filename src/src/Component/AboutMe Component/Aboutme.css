@@ -1,0 +1,268 @@
+:root {
+    --secondary-black: rgb(31, 30, 30);
+    --background-black: #121212;
+    --dark-black: rgb(10, 10, 10);
+    --grey-secondary: rgb(73, 73, 73);
+}
+
+.Aboutme_section {
+    height: 60vh;
+    width: 100vw;
+    background-color: var(--dark-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(0%);
+}
+
+.personal_picture_frame {
+    animation: personal_picture_motion;
+    opacity: 1;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
+}
+
+.Aboutme_words {
+    animation: Aboutme_motion;
+    opacity: 1;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes personal_picture_motion {
+    0% {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes Aboutme_motion {
+    0% {
+        opacity: 0;
+        transform: translateX(-300%);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.Aboutme_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.personal_picture_frame img.personal_picture {
+    border: 7px solid var(--secondary-black);
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+}
+
+.personal_picture_frame {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    z-index: 0;
+}
+
+.personal_picture_frame::after {
+    position: absolute;
+    content: '';
+    border-style: solid;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    border: 10px solid aqua;
+    opacity: 1;
+}
+
+.Aboutme_words {
+    width: 60%;
+    margin-left: 4rem;
+    position: relative;
+}
+
+.Aboutme_words h1 {
+    font-size: 40px;
+    color: white;
+    position: relative;
+}
+
+.Aboutme_words h1::after {
+    content: '';
+    opacity: 1;
+    font-weight: 600;
+    position: absolute;
+    width: 150px;
+    bottom: -15px;
+    left: 0;
+    background-color: aqua;
+    border: 2px solid aqua;
+}
+
+.Aboutme_description {
+    color: lightgrey;
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+.redirect_CV_Button {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    margin-top: 1rem;
+    background-color: transparent;
+    color: aqua;
+}
+
+.redirect_CV_Button:hover {
+    border: 1px solid aqua;
+    background-color: aqua;
+    color: var(--dark-black);
+    font-weight: 600;
+    transition: all 0.15s ease-in-out;
+}
+
+.question-wrapper {
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+
+.question_circle {
+    transition: all 0.3s ease-in;
+    color: var(--grey-secondary);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+h1.Aboutme_heading {
+    display: inline;
+}
+
+.question_description {
+    position: absolute;
+    left: 3.5rem;
+    top: -1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: var(--secondary-black);
+    color: white;
+    padding: 8px;
+    font-size: 13px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+span.question-wrapper:hover .question_description {
+    opacity: 1;
+}
+
+span.question-wrapper:hover .question_circle {
+    color: aqua;
+}
+
+@media (max-width:820px) {
+    .Aboutme_section {
+        height: 100vh;
+        justify-content: space-around;
+    }
+
+    .Aboutme_wrapper {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .personal_picture_frame {
+        display: none;
+    }
+
+    .Aboutme_words {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        width: 85%;
+        height: 80%;
+        margin: auto;
+        position: relative;
+    }
+
+
+    .Aboutme_description {
+        color: lightgray;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .Aboutme_heading {
+        position: relative;
+    }
+
+    .Aboutme_words h1::after {
+        left: 7%;
+    }
+
+    .question-wrapper {
+        position: absolute;
+        right: 0;
+        top: 0;
+        scale: 1.5;
+    }
+}
+
+
+@media (min-width:1024px) {
+    .Aboutme_wrapper {
+        max-width: 1300px;
+        max-height: 322.58px;
+    }
+
+    .personal_picture_frame img.personal_picture {
+        width: 250px;
+        aspect-ratio: 3/4;
+    }
+
+    .Aboutme_description {
+        color: lightgrey;
+        font-size: 16px;
+    }
+
+    .personal_picture_frame {
+        position: relative;
+        width: 250px;
+    }
+
+    .personal_picture_frame::after {
+        width: 250px;
+        position: absolute;
+        right: 45px;
+    }
+}

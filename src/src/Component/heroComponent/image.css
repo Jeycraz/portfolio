@@ -1,0 +1,67 @@
+.image-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.caption{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: none;
+}
+
+.increment-button{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    background-color: aqua;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.decrement-button{
+    background-color: aqua;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    left: 3%;
+}
+
+.arrow-right{
+    font-size: 15px;
+    opacity: 0.5;
+    transition: transform 0.2s ease-in;
+}
+
+.increment-button:hover .arrow-right{
+    transform: translateX(5px);
+    opacity: 1;
+}
+
+.arrow-left{
+    font-size: 15px;
+    opacity: 0.5;
+    transition: transform 0.2s ease-in;
+}
+
+.decrement-button:hover .arrow-left{
+    transform: translateX(-5px);
+    opacity: 1;
+}
+
+.inside-wrapper{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

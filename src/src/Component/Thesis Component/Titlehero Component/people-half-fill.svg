@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<defs>
+    <linearGradient id="half">
+      <stop offset="0%" stop-color="white" />
+      <stop offset="80%" stop-color="white" />
+      <stop offset="80%" stop-color="#535151" />
+      <stop offset="100%" stop-color="#535151" />
+    </linearGradient>            
+  </defs>
+<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+<g fill="url(#half)"><path d="M681.1,523.5c59.9-53.1,98.1-133.6,98.1-223.9c0-160-120.2-289.6-268.3-289.6c-148.3,0-268.5,129.6-268.5,289.6c0,80.3,30.3,153,79.3,205.4C327.8,510.8,498.5,668.6,681.1,523.5z M861.1,723.8L715.2,591c-54.8,44.9-209.9,139.5-424.5-3.4C226.2,637.3,53.7,779.9,72.8,876.2c0,0,3.4,100.4,185.8,105.2c0,0,543.8,40.2,634.2-53.4C892.8,928,991.6,864.3,861.1,723.8z"/></g>
+</svg>

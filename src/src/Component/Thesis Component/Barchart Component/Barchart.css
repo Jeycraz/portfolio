@@ -1,0 +1,132 @@
+.bar-sizing-wrapper {
+    height: 105vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar-sizing-heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: rgb(218, 218, 218);
+    width: 90%;
+    height: 40%;
+}
+
+.bar-sizing-heading a {
+    position: absolute;
+    right: 0%;
+    top: 35%;
+    text-decoration: none;
+    padding: 0.7rem 0.5rem;
+    background-color: aqua;
+    color: black;
+    border-radius: 40px;
+}
+
+.bar-sizing-heading p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bar-sizing-heading h6 {
+    margin: 1rem 0.2rem;
+    font-size: 9px;
+}
+
+.bar-sizing {
+    position: relative;
+    height: 60%;
+    margin: auto;
+}
+
+.bar-sizing p {
+    color: rgb(218, 218, 218);
+    position: absolute;
+    margin: 0;
+    font-size: 9px;
+    font-weight: 200;
+}
+
+.bar-details {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-details p {
+    width: 45%;
+    height: 80%;
+    font-size: 15px;
+}
+
+@media (max-width:1024px) {
+    .bar-sizing-heading {
+        height: 20%;
+    }
+
+    .bar-sizing-heading p {
+        font-size: 18px;
+    }
+
+    .bar-details {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bar-sizing {
+        position: relative;
+        height: 60%;
+        margin: auto;
+        width: 90%;
+    }
+
+    .bar-details p {
+        width: 90%;
+        height: 30%;
+        font-size: 13px;
+    }
+
+    .bar-sizing-heading h6 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .bar-sizing-heading a {
+        scale: 0.8;
+    }
+}
+
+@media (min-width:1024px) {
+    .bar-sizing-wrapper {
+        height: 55vh;
+    }
+
+    .bar-sizing-heading p {
+        font-size: 25px;
+    }
+
+    .bar-sizing-heading h6 {
+        font-size: 15px;
+    }
+
+    .bar-sizing {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bar-sizing p {
+        font-size: 18px;
+    }
+}

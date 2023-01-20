@@ -1,0 +1,243 @@
+.skill-main-container {
+    height: 50vh;
+    width: 100vw;
+}
+
+.skill-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.skill-inner-wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .skill-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.skill-heading.design,
+.skill-heading.webdev {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .skill-heading h1 {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skill-heading h2 {
+    color: aqua;
+} */
+
+
+.icon-lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    padding-left: 0px;
+    grid-gap: 2rem;
+    height: 60%;
+    width: 80%;
+}
+
+.icon-lists.webdev {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.icon-list {
+    position: relative;
+    display: flex;
+    opacity: 1;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-list.canva {
+    background-image: url('./Canva_icon.png');
+}
+
+.canva-icon {
+    width: 80%;
+}
+
+.icon-list.design:hover {
+    background-color: var(--dark-black);
+}
+
+.icon-list img,
+.icon-name {
+    transition: all 0.35s ease-out;
+}
+
+.icon-list.design:hover img,
+.icon-list.design:hover .icon-name {
+    opacity: 0;
+    z-index: -1;
+}
+
+.icon-list.design:hover .level {
+    z-index: 1;
+    opacity: 1;
+}
+
+.icon-list.design .icon-name {
+    color: white;
+}
+
+.icon-list.webdev:hover img,
+.icon-list.webdev:hover .icon-name {
+    opacity: 0;
+    z-index: -1;
+}
+
+.icon-list.webdev:hover .level {
+    z-index: 1;
+    opacity: 1;
+}
+
+.icon-list.webdev .icon-name {
+    color: white;
+}
+
+.level {
+    position: absolute;
+    top: -5%;
+    z-index: -1;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.35s ease-in-out;
+}
+
+.level-label {
+    font-size: 18px;
+}
+
+.level-description {
+    color: aqua;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.canva-icon.react {
+    animation: rotateright;
+    animation-duration: 7s;
+    animation-timing-function: cubic-bezier(0.57, 0.35, 0.08, 0.69);
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateright {
+    0% {
+        transform: rotate(0);
+    }
+
+    5% {
+        transform: rotate(-30deg);
+    }
+
+    45% {
+        transform: rotate(720deg);
+    }
+
+    100% {
+        transform: rotate(720deg);
+    }
+}
+
+@media (max-width:640px) {
+    .skill-main-container {
+        height: 100vh;
+    }
+
+    .skill-heading.design,
+    .skill-heading.webdev {
+        margin-bottom: 2rem;
+    }
+
+    ul.icon-lists.webdev {
+        height: 100%;
+    }
+
+    ul.icon-lists.design {
+        height: 40%;
+    }
+
+    .skill-wrapper {
+        height: 80vh;
+        width: 100vw;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-bottom: 25px;
+    }
+
+    .skill-inner-wrapper {
+        width: 100%;
+
+    }
+
+    .icon-lists.design,
+    .icon-lists.webdev {
+        width: 100%;
+    }
+
+    .icon-list.design {
+        width: min(100px, 100%);
+    }
+
+    .icon-lists.webdev {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:1024px) {
+    .skill-main-container {
+        height: 100vh;
+    }
+
+    .skill-inner-wrapper {
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .skill-wrapper {
+        height: 80vh;
+        width: 100vw;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        margin-bottom: 25px;
+    }
+}
