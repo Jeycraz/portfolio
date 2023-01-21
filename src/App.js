@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/' element={
+      <Route path='/home' element={
         <div className="App">
           <Headeredit />
           <Modal open={isOpen} onClose={() => setIsOpen(false)}>This is a portal</Modal>

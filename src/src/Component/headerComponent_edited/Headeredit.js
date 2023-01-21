@@ -36,9 +36,9 @@ export default class Headeredit extends Component {
     return (
       <>
         <nav className='header-container'>
-          <NavLink to='/' className='logo'></NavLink>
+          <NavLink to='/home' className='logo'></NavLink>
           <ul className='header-list'>
-            <NavLink to='/' className='list'>Home</NavLink>
+            <NavLink to='/home' className='list'>Home</NavLink>
             <NavLink to='/portfolio' className='list'>Portfolio</NavLink>
             <NavLink to='/thesis' className='list'>Thesis</NavLink>
             <NavLink to='/contact' className='list'>Contact Us</NavLink>
@@ -52,7 +52,7 @@ export default class Headeredit extends Component {
           <div className='header-popup-inner-wrapper'>
             <h1 className='header-popup-title'>Menu</h1>
             <ul className='header-popup-list'>
-              <NavLink to='/' onClick={() => this.onCloseActive()} className='list'>Home<img src={home} alt='home icon' className='img-icon' /></NavLink>
+              <NavLink to='/home' onClick={() => this.onCloseActive()} className='list'>Home<img src={home} alt='home icon' className='img-icon' /></NavLink>
               <NavLink to='/portfolio' onClick={() => this.onCloseActive()} className='list'>Portfolio<img src={portfolio} alt='portfolio icon' className='img-icon' /></NavLink>
               <NavLink to='/thesis' onClick={() => this.onCloseActive()} className='list'>Thesis<img src={thesis} alt='thesis icon' className='img-icon' /></NavLink>
               <NavLink to='/contact' onClick={() => this.onCloseActive()} className='list'>Contact<img src={contact} alt='home icon' className='img-icon' /></NavLink>
