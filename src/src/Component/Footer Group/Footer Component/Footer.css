@@ -45,14 +45,14 @@
     padding-left: 0;
 }
 
-.footer-wrap.quick-links .quick-link-lists li {
+.footer-wrap.quick-links .quick-link-lists a {
     width: 100%;
     padding-left: 0px;
     list-style-type: none;
     margin-top: 0.5rem;
 }
 
-.footer-wrap.quick-links .quick-link-lists li:nth-child(1) {
+.footer-wrap.quick-links .quick-link-lists a:nth-child(1) {
     margin-top: 0px;
 }
 

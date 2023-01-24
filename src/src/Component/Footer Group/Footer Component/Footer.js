@@ -15,11 +15,11 @@ const Footer = () => {
 
                 <div className='footer-wrap quick-links'>
                     <h1 className='footer-heading quicklink'>Quick Links</h1>
-                    <ul className='quick-link-lists'>
-                        <li ><a href='#About-me' className='quick-link-list'>about me</a></li>
-                        <li><a href='#contact' className='quick-link-list'>contact me</a></li>
-                        <li><a href='#thesis' className='quick-link-list'>thesis</a></li>
-                    </ul>
+                    <div className='quick-link-lists'>
+                        <a href='/' className='quick-link-list'>about me</a>
+                        <a href='/contact' className='quick-link-list'>contact me</a>
+                        <a href='/thesis' className='quick-link-list'>thesis</a>
+                    </div>
                 </div>
             </div>
 

@@ -10,7 +10,7 @@ function Copyright() {
                     <p className='copyright-description'>
                         copyright all rights reserved
 
-                        <a href='#About-me' className='copyright-reserved'>jeremy.com</a>
+                        <a href='#About-me' className='copyright-reserved'>jeremy</a>
                     </p>
                 </div>
 
