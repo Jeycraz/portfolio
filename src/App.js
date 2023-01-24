@@ -1,6 +1,5 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import Header from './src/Component/headerComponent/Header';
 import Home from './src/Component/Page Component/Home';
 import Portfolio from './src/Component/Portfolio Component/Portfolio Component/Portfolio';
 import { Routes, Route } from 'react-router-dom';
@@ -23,7 +22,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/home' element={
+      <Route path='/' element={
         <div className="App">
           <Headeredit />
           <Modal open={isOpen} onClose={() => setIsOpen(false)}>This is a portal</Modal>

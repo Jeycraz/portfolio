@@ -15,11 +15,11 @@ function Copyright() {
                 </div>
 
                 <div className='copyright-wrap quick-links'>
-                    <ul className='social-media-links'>
-                        <li ><a href='https://instagram.com/xjeremyx1?igshid=ZDdkNTZiNTM=' className='social-media-link instagram'></a></li>
-                        <li><a href='https://www.linkedin.com/in/jeremy-chee-yuan-chong-2234371a0' className='social-media-link linkedin'></a></li>
-                        <li><a href='https://github.com/Jeycraz' className='social-media-link github'></a></li>
-                    </ul>
+                    <div className='social-media-links'>
+                        <a href='https://instagram.com/xjeremyx1?igshid=ZDdkNTZiNTM=' className='social-media-link instagram'></a>
+                        <a href='https://www.linkedin.com/in/jeremy-chee-yuan-chong-2234371a0' className='social-media-link linkedin'></a>
+                        <a href='https://github.com/Jeycraz' className='social-media-link github'></a>
+                    </div>
                 </div>
             </div>
 
