@@ -4,6 +4,7 @@ import personal_picture from './Personal_picture.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
 import Extradetail from './Extradetail'
+import resume from './Resume.pdf'
 
 
 function Aboutme() {
@@ -22,7 +23,7 @@ function Aboutme() {
     return (
         <>
             {!isShow ?
-                <section className='Aboutme_section'>
+                <section className='Aboutme_section' id='About-me'>
                     <div className='Aboutme_wrapper'>
                         <div className='personal_picture_frame'>
                             <img src={personal_picture} className='personal_picture' alt="jeremy is smiling at the camera" />
@@ -40,9 +41,8 @@ function Aboutme() {
                                 Hi.I'm Jeremy Chong! I am driven by a learning desire to learn new things. I am currently pursuing an International Business degree at HangZhou Normal University Alibaba Business School. <br /><br></br>
                                 Eager to join an internship as an E-commerce digital marketing to help establish strong branding images to increase sales conversion rate in assisting in developing and implemeneting marketing campaign and E-commerce website operation. Strong actual real-life experience background in Facebook marketing campaign.
                             </p>
-                            <a href='#Download_cv'>
-                                <button className='redirect_CV_Button'>DOWNLOAD CV</button>
-                            </a>
+                            <a href={resume} download="resume" className='redirect_CV_Button'>Download Resume</a>
+
                         </div>
                     </div>
                 </section>
