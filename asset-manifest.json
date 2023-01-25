@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c56d1a75.css",
-    "main.js": "/portfolio/static/js/main.501c793c.js",
+    "main.css": "/portfolio/static/css/main.924f46e3.css",
+    "main.js": "/portfolio/static/js/main.ad2aaa74.js",
     "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
     "static/media/Loopvideo.mp4": "/portfolio/static/media/Loopvideo.2f5df71a1eb29d09d24b.mp4",
     "static/media/To do list.png": "/portfolio/static/media/To do list.c54f1c4f4bc045d47419.png",
     "static/media/kitchen recipes.png": "/portfolio/static/media/kitchen recipes.49d71cfd8d91aad3685b.png",
     "static/media/Canva_icon.png": "/portfolio/static/media/Canva_icon.c88ac1982d7920d64498.png",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.0a5b7588e09de77b0b83.pdf",
     "static/media/protrait.png": "/portfolio/static/media/protrait.b061cbaf2ff9e83a1d4c.png",
     "static/media/Walnut_2.png": "/portfolio/static/media/Walnut_2.46b6c555d3f1b189e299.png",
     "static/media/OZB Group_edited.png": "/portfolio/static/media/OZB Group_edited.78bfed8cc251267632ec.png",
@@ -20,21 +21,21 @@
     "static/media/css-3.png": "/portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/html-5.png": "/portfolio/static/media/html-5.ff3cf75e3b7cbb4ea77c.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
-    "static/media/people-half-fill.svg": "/portfolio/static/media/people-half-fill.28fb3f80572aa5884b3bd6be124538b2.svg",
-    "static/media/arrow-decline.svg": "/portfolio/static/media/arrow-decline.12cccdee617898887697f4995536fed1.svg",
+    "static/media/people-half-fill.svg": "/portfolio/static/media/people-half-fill.c513613135f98aa895b586c5b3a6e585.svg",
+    "static/media/arrow-decline.svg": "/portfolio/static/media/arrow-decline.b05811754be1b718612c1ce5b883d03c.svg",
     "static/media/book-open-reader.svg": "/portfolio/static/media/book-open-reader.7ea2608c6f9a9f8a1f61f0f2d966b73f.svg",
-    "static/media/people-icon.svg": "/portfolio/static/media/people-icon.38e8c150e1d4a1840c7e8da522f11633.svg",
+    "static/media/people-icon.svg": "/portfolio/static/media/people-icon.f74b02e9654cbd4d2b01c7638ff5638c.svg",
     "index.html": "/portfolio/index.html",
     "static/media/home.svg": "/portfolio/static/media/home.1a89b86cad885762a9b58cef4f97cb2a.svg",
     "static/media/envelope.svg": "/portfolio/static/media/envelope.54a1c4369a0e5baf01d56a438a9e9ff8.svg",
     "static/media/user.svg": "/portfolio/static/media/user.1b8696f80c1ff49b4b81897c988030c8.svg",
     "static/media/menu-burger.svg": "/portfolio/static/media/menu-burger.877a4f0c0e78ed9773bf2b3481c0d518.svg",
-    "main.c56d1a75.css.map": "/portfolio/static/css/main.c56d1a75.css.map",
-    "main.501c793c.js.map": "/portfolio/static/js/main.501c793c.js.map",
+    "main.924f46e3.css.map": "/portfolio/static/css/main.924f46e3.css.map",
+    "main.ad2aaa74.js.map": "/portfolio/static/js/main.ad2aaa74.js.map",
     "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c56d1a75.css",
-    "static/js/main.501c793c.js"
+    "static/css/main.924f46e3.css",
+    "static/js/main.ad2aaa74.js"
   ]
 }
