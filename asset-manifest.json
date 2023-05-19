@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f24ed836.css",
-    "main.js": "/portfolio/static/js/main.831482b5.js",
+    "main.css": "/portfolio/static/css/main.274ed2c2.css",
+    "main.js": "/portfolio/static/js/main.34234d03.js",
     "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
-    "static/media/Loopvideo.mp4": "/portfolio/static/media/Loopvideo.dd43f19f14c3ce9d4771.mp4",
     "static/media/To do list.png": "/portfolio/static/media/To do list.c54f1c4f4bc045d47419.png",
+    "static/media/foodOrder.png": "/portfolio/static/media/foodOrder.1460e790e2b9b1c73021.png",
     "static/media/kitchen recipes.png": "/portfolio/static/media/kitchen recipes.49d71cfd8d91aad3685b.png",
     "static/media/Canva_icon.png": "/portfolio/static/media/Canva_icon.c88ac1982d7920d64498.png",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.0a5b7588e09de77b0b83.pdf",
+    "static/media/Loopvideo.mp4": "/portfolio/static/media/Loopvideo.437be02718b2ad0d5e7c.mp4",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.3ebbda88c1a4b4e44374.pdf",
     "static/media/protrait.png": "/portfolio/static/media/protrait.b061cbaf2ff9e83a1d4c.png",
+    "static/media/Shein-logo.jpg": "/portfolio/static/media/Shein-logo.14b9f99b47d802f8c7a9.jpg",
     "static/media/Walnut_2.png": "/portfolio/static/media/Walnut_2.46b6c555d3f1b189e299.png",
     "static/media/OZB Group_edited.png": "/portfolio/static/media/OZB Group_edited.78bfed8cc251267632ec.png",
     "static/media/Book-horizontal.png": "/portfolio/static/media/Book-horizontal.1d77754cad7da77c9f73.png",
@@ -30,12 +32,12 @@
     "static/media/envelope.svg": "/portfolio/static/media/envelope.54a1c4369a0e5baf01d56a438a9e9ff8.svg",
     "static/media/user.svg": "/portfolio/static/media/user.1b8696f80c1ff49b4b81897c988030c8.svg",
     "static/media/menu-burger.svg": "/portfolio/static/media/menu-burger.877a4f0c0e78ed9773bf2b3481c0d518.svg",
-    "main.f24ed836.css.map": "/portfolio/static/css/main.f24ed836.css.map",
-    "main.831482b5.js.map": "/portfolio/static/js/main.831482b5.js.map",
+    "main.274ed2c2.css.map": "/portfolio/static/css/main.274ed2c2.css.map",
+    "main.34234d03.js.map": "/portfolio/static/js/main.34234d03.js.map",
     "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f24ed836.css",
-    "static/js/main.831482b5.js"
+    "static/css/main.274ed2c2.css",
+    "static/js/main.34234d03.js"
   ]
 }
